@@ -1,0 +1,8 @@
+{
+  "firstSeedNumber": 0,
+  "seedCount": 50,
+  "romPath": "./PokemonEmerald.gba",
+  "outputPath": "./Seeds",
+  "randomizerSettingsPath": "./PokemonEmeraldIronMON.rnqs",
+  "randomizerJarPath": "../PokeRandoZX-v4_4_0/PokeRandoZX.jar"
+}

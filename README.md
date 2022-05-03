@@ -10,13 +10,13 @@ Copy the script and its configuration file to a location of your choosing.
 
 Modify the configuration file to your needs.
 
-| Name                     | Description                                                      |
-| ------------------------ | ---------------------------------------------------------------- |
-| `FirstSeedNumber`        | Number at which to begin labeling seeds.                         |
-| `SeedCount`              | Number of seeds to create.                                       |
-| `RomPath`                | Path to the ROM file you want to randomize.                      |
-| `OutputPath`             | Folder path in which to save the seeds.                          |
-| `RandomizerSettingsPath` | Path to the randomizer's settings file to use for randomization. |
-| `RandomizerJarPath`      | Path to the randomizer.                                          |
-
-The default config expects the script to be run from a subdirectory of the PokeRandoZX's directory.
+```jsonc
+{
+  "firstSeedNumber": 0, // Number at which to begin labeling seeds.
+  "seedCount": 50, // Number of seeds to create.
+  "romPath": "./PokemonEmerald.gba", // Path to the ROM file you want to randomize.
+  "outputPath": "./Seeds", // Folder path in which to save the seeds.
+  "randomizerSettingsPath": "./PokemonEmeraldIronMON.rnqs", // Path to the randomizer's settings file to use for randomization.
+  "randomizerJarPath": "../PokeRandoZX-v4_4_0/PokeRandoZX.jar" // Path to the randomizer.
+}
+```
