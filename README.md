@@ -6,7 +6,7 @@ This repository provides a tool for creating batches of randomized Pokemon seeds
 
 1. To use this script you will need to have a copy of [Ajarmar Universal Pokemon Randomizer ZX](https://github.com/Ajarmar/universal-pokemon-randomizer-zx).
 
-2. Download the `pokerando-batch-<platform>` executable for your platform and the `batch-randomize-config.json` configuration file from the releases page.
+2. Download the `pokerando-batch-<platform>` executable for your platform and the `batch-randomize-config.json` configuration file from the [releases page](https://github.com/keawade/pokerando-batch/releases).
 
 3. Modify the configuration file to your needs.
 
