@@ -37,5 +37,6 @@ jobs:
             pokerando-batch.windows-amd64.exe
             pokerando-batch.darwin-amd64
             pokerando-batch.darwin-aarch64
+            batch-randomize-config.json
             README.md
             LICENSE
