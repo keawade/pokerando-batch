@@ -50,6 +50,8 @@ for (let i = 0; i < config.seedCount; i++) {
   const paddedFileNumber = `${i + config.firstSeedNumber}`.padStart(5, "0");
   const outputFileName = `${parsedRomPath.name} Randomized ${paddedFileNumber}${parsedRomPath.ext}`;
 
+  console.log(`Generating ${outputFileName}`);
+
   const process = Deno.run({
     cmd: [
       "java",
