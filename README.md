@@ -21,4 +21,4 @@ This repository provides a tool for creating batches of randomized Pokemon seeds
    }
    ```
 
-4. Run the the executable.
+4. Run the executable.
